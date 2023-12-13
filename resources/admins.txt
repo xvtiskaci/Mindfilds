@@ -1,0 +1,14 @@
+places admin url = https://admin-places.artmedia.ge/manage/login
+user = Welcome@artmedia.ge
+pass = PaSsword!123
+________________________________________________________________
+
+artmedia admin url = http://new.artmedia.ge/manage/login
+user = Welcome@artmedia.ge
+pass = 123456
+
+
+
+
+
+

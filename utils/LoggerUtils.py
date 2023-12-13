@@ -5,7 +5,6 @@ import logging.config
 class LoggerUtils:
     logging.config.fileConfig(fname='../resources/logger_config.conf',
                               disable_existing_loggers=False)
-
     @staticmethod
     def info(message):
         return logging.getLogger(__name__).info(message)
