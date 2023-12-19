@@ -8,4 +8,3 @@ class TestInformationFields:
         login_steps.login()
         information_fields_steps = InformationFieldsSteps
         information_fields_steps.add_redact_delete_info_fields_steps()
-

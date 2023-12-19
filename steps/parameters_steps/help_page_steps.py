@@ -1,0 +1,47 @@
+import time
+
+from pages.parameters.help_page import HelpPage
+
+
+class HelpPageSteps:
+    @staticmethod
+    def check_all_help_menu_steps():
+        help_page = HelpPage()
+        help_page.click_parameters_menu()
+        time.sleep(1)
+        help_page.click_help_menu()
+        help_page.is_visible()
+        help_page.click_pages()
+        help_page.click_back()
+        help_page.click_shortcodes()
+        help_page.click_back()
+        help_page.click_terms()
+        help_page.click_back()
+        help_page.click_comments()
+        help_page.click_back()
+        help_page.click_user()
+        help_page.click_back()
+        help_page.click_roles()
+        help_page.click_back()
+        help_page.click_slider()
+        help_page.click_back()
+        help_page.click_subscribers()
+        help_page.click_back()
+        help_page.click_banners()
+        help_page.click_back()
+        help_page.click_tests()
+        help_page.click_back()
+        help_page.click_survey()
+        help_page.click_back()
+        help_page.click_calculators()
+        help_page.click_back()
+        help_page.click_facebook_share()
+        help_page.click_back()
+        help_page.click_media()
+        help_page.click_back()
+        help_page.click_translate()
+        help_page.click_back()
+        help_page.click_params_info()
+        help_page.click_back()
+        help_page.click_params_log()
+        help_page.click_back()

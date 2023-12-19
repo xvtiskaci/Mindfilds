@@ -51,19 +51,10 @@ class Element:
         LoggerUtils.info("clear element: {}".format(self.name))
         DriverManager.get_driver().find_element(self.by, self.locator).clear()
 
-
     def multiple_click(self, count):
         for i in range(count):
             self.click()
 
-
     def move_to_element(self):
         LoggerUtils.info("move to element: {}".format(self.name))
-        ActionChains(DriverManager.get_driver()).move_to_element(self.find_element())
-
-
-
-
-
-
-
+        ActionChains(DriverManager.get_driver()).move_to_element(self.find_element()).perform()

@@ -5,7 +5,7 @@ class LoginPageSteps:
     @staticmethod
     def login():
         email = "welcome@artmedia.ge"
-        password = "123456"
+        password = "PaSsword!123"
         login_page = LoginPage()
         login_page.is_visible()
         login_page.close_php()
