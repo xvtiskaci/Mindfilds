@@ -15,7 +15,7 @@ class MediaPageSteps:
         media_page.click_media_menu()
         media_page.is_visible()
         media_page.send_photo(photo)
-        time.sleep(10)
+        time.sleep(20)
         media_page.fill_search(photo_name)
         pyautogui.press("enter")
         media_page.move_to_photo()

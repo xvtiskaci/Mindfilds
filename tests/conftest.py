@@ -10,5 +10,5 @@ def set_up():
     driver = DriverManager.get_driver()
     driver.get(config_data["url"])
     driver.maximize_window()
-    # yield
-    # DriverManager.close_driver()
+    yield
+    DriverManager.close_driver()
